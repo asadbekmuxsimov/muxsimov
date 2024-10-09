@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$color-bg: #0076F5;
+
+@import "navbar";
+@import "footer";
+@import "responsive";
+
+
+
+
+
+
+
+
+
+  
+
+body {
+    background-color: #F5FAFF;
+}
+
+.container {
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    .main-div {
+        h1 {
+            width: 700px;
+            height: 352px;
+            font-size: 69px;
+
+            span {
+                color: $color-bg;
+            }
+
+        }
+
+        button {
+            padding: 12px 70px;
+            color: $color-bg;
+            border: 2px solid $color-bg;
+            background-color: white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: $color-bg;
+            color: white;
+
+        }
+
+        button:active {
+            opacity: 0.5s;
+            transform: scale(0.9);
+        }
+    }
+
+    .main-img {
+        display: flex;
+        gap: 30px;
+
+        .pasro {
+            transform: translateY(120px);
+        }
+    }
+}
+
+.section2 {
+    margin-top: 190px;
+}
+
+.sta {
+    width: 241px;
+    height: 52px;
+    font-size: 48px;
+}
+
+.statistika {
+    color: black !important;
+    display: flex;
+    gap: 30px;
+
+    .statistic {
+        padding: 30px;
+        width: 354px;
+        height: 246px;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: white;
+
+        h2 {
+            font-size: 44px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 25px;
+        }
+    }
+
+    .statistic:hover {
+        opacity: 0.5s;
+        transform: scale(1.1);
+    }
+}
+
+
+
+.biz {
+    width: 312px;
+    height: 52px;
+    font-size: 44px
+}
+
+.hero {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+    .hero-img {
+        .pasro1 {
+            transform: translateY(50px);
+            margin-right: 20px;
+        }
+    }
+
+    .hero-txt {
+        h2 {
+            width: 423px;
+            height: 34px;
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            width: 482px;
+            height: 70px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.section3 {
+    margin-top: 100px;
+}
+
+.kurs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    h2 {
+        font-size: 44px;
+    }
+
+    a {
+        font-size: 19px;
+        text-decoration: none;
+        color: $color-bg;
+    }
+}
+
+.kurslar {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+    .kurs-div {
+        width: 442px;
+        padding: 30px;
+        border-radius: 10px;
+        background-color: white;
+        color: black !important;
+
+
+        span {
+            color: $color-bg;
+        }
+
+        .p-txt {
+            width: 320px;
+            height: 78px;
+            margin-top: 20px;
+        }
+
+        .p2-txt {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 12px 36px;
+            color: $color-bg;
+            border: 2px solid $color-bg;
+            background-color: white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: $color-bg;
+            color: white;
+
+        }
+
+        button:active {
+            opacity: 0.5s;
+            transform: scale(0.9);
+        }
+    }
+
+    .kurs-div:hover {
+        opacity: 0.5s;
+        transform: scale(1.1);
+    }
+}
+
+.darslik {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+    .darslik-div2 {
+        padding: 15px;
+        border-radius: 10px;
+        background-color: white;
+        color: black !important;
+
+
+        h3 {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            width: 317px;
+            height: 80px;
+        }
+
+        button {
+            padding: 12px 36px;
+            color: $color-bg;
+            border: 2px solid $color-bg;
+            background-color: white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: $color-bg;
+            color: white;
+
+        }
+
+        button:active {
+            opacity: 0.5s;
+            transform: scale(0.9);
+        }
+    }
+
+    .darslik-div {
+        padding: 15px;
+        border-radius: 10px;
+        background-color: white;
+        color: black !important;
+
+
+        h3 {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            width: 317px;
+            height: 80px;
+        }
+
+        button {
+            padding: 12px 36px;
+            color: $color-bg;
+            border: 2px solid $color-bg;
+            background-color: white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: $color-bg;
+            color: white;
+
+        }
+
+        button:active {
+            opacity: 0.5s;
+            transform: scale(0.9);
+        }
+    }
+
+    .btn {
+        padding: 12px 36px;
+        color: $color-bg;
+        border: 2px solid $color-bg;
+        background-color: white;
+        border-radius: 6px;
+        cursor: pointer;
+        display: none;
+
+        .btn:hover {
+            background-color: $color-bg;
+            color: white;
+    
+        }
+    
+        .btn:active {
+            opacity: 0.5s;
+            transform: scale(0.9);
+        }
+    }
+
+
+
+}
+
+.jamoa {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+    .jamoa-div {
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        color: black !important;
+
+        span {
+            color: $color-bg;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            margin-top: 5px;
+        }
+
+        p {
+            width: 322px;
+            height: 99px;
+            margin-top: 15px;
+        }
+
+        .rasm {
+            width: 150px;
+            border-radius: 50%;
+
+        }
+
+        .aylaniw {
+            transform: rotate(20deg);
+        }
+    }
+}
+
+.sertifikat {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    align-items: center;
+
+    .sertifikat-div {
+        p {
+            width: 482px;
+            height: 52px;
+            font-size: 16px;
+        }
+
+        h2 {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+    }
+}

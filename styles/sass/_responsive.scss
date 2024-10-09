@@ -1,0 +1,70 @@
+@media (max-width: 768px) {
+    nav{
+        ul{
+            display: none;
+        }
+        button{
+            display: none;
+        }
+    }
+    main{
+        flex-wrap: wrap;
+        text-align: center;
+        .main-img{
+            margin-top: 50px;
+        }
+    }
+    .statistika{
+        flex-wrap: wrap;
+    }
+    .hero{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .kurslar{
+        flex-wrap: wrap;
+    }
+    .darslik{
+        flex-wrap: wrap;
+    }
+    .darslik-div2{
+        display: none;
+
+    }
+    .btn{
+        display: block;
+    }
+    .jamoa{
+        flex-wrap: wrap;
+        text-align: center;
+        p{
+            margin-left: 200px;
+        }
+        .jamoa-div{
+            width: 100%;
+        }
+    }
+    .sertifikat{
+        flex-wrap: wrap;
+        .sertifikat-div{
+            margin-top: 50px;    
+        }
+    }
+    .footer{
+        display: none;
+        flex-wrap: wrap;
+    }
+    .footer2{
+        display: block;
+        text-align: center;
+        .pi{
+            margin-left: 200px;
+        }
+        .asosiy{
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+        }
+    }
+
+}
